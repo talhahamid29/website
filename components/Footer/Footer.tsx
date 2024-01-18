@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <div>
+    <div className="w-[375px]">
       <div className="lg:flex lg:gap-[70px] bg-gray-900 text-white font-nunito py-10">
-        <div className="ml-[20px] lg:mt-20 lg:ml-20">
+        <div className="ml-[20px] mr-[20px] lg:mt-20 lg:ml-20">
           <p className=" font-bold flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
           <p className="text-sm p-2 text-gray-400"> www.eduma.com</p>
         </div>
 
-        <div className="ml-[20px] mt-20">
+        <div className="ml-[20px] mr-[20px] mt-20">
           <p className="font-bold">Security & Brand</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400">Eduma </p>
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="ml-[20px] mt-20">
+        <div className="ml-[20px] mr-[20px] mt-20">
           <p className="font-bold">Accounts</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400"> CopyRight</p>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
             <p className="p-2 text-sm text-gray-400">Accounts</p>
           </div>
         </div>
-        <div className="ml-[20px] mt-20">
+        <div className="ml-[20px] mr-[20px] mt-20">
           <p className="font-bold">Support</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400"> CopyRight</p>
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             <p className="p-2 text-sm text-gray-400">Support</p>
           </div>
         </div>
-        <div className=" ml-[20px] mt-20">
+        <div className=" ml-[20px] mr-[20px] mt-20">
           <p className="font-bold">School Directory</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400"> CopyRight</p>
@@ -71,9 +71,9 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="bg-gray-900 font-nunito">
-        <hr className="text-gray-400 ml-10 mr-10 " />
+        <hr className="text-gray-400  " />
         <div className="lg:flex mt-5">
-          <p className=" text-sm text-gray-400 p-3 pl-10">
+          <p className=" text-sm text-gray-400 p-3 mr-[20px] pl-10">
             Product Design By Oxcytech Systems Pvt Ltd
           </p>
           <div className="flex text-sm ml-[70px] gap-4">

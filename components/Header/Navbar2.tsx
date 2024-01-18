@@ -6,7 +6,7 @@
 
       return (
         <div>
-          <div className="bg-white font-nunito shadow-lg lg:space-x-48 p-4 pl-4 md:pl-20 flex">
+          <div className="bg-white font-nunito shadow-lg lg:space-x-40 p-4 pl-4 md:pl-20 flex">
             <div className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6 lg:ml-[-50px]"
+                className="w-6 h-6 lg:ml-[-70px]"
               >
                 <path
                   strokeLinecap="round"

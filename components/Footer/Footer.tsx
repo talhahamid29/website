@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <div className="w-[375px] lg:w-[1262px]">
+    <div className="w-full lg:max-w-screen-xl mx-auto">
       <div className="lg:flex lg:gap-[70px] bg-gray-900 text-white font-nunito py-10">
-        <div className="ml-[20px]  lg:mt-20 lg:ml-20">
+        <div className="ml-[20px]  lg:mt-20 lg:mr-[10px] lg:ml-20">
           <p className=" font-bold flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
           <p className="text-sm p-2 text-gray-400"> www.eduma.com</p>
         </div>
 
-        <div className="ml-[20px]  mt-20">
+        <div className="ml-[20px] lg:mr-[10px]  mt-20">
           <p className="font-bold">Security & Brand</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400">Eduma </p>
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="ml-[20px] mt-20">
+        <div className="ml-[20px] lg:mr-[10px] mt-20">
           <p className="font-bold">Accounts</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400"> CopyRight</p>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
             <p className="p-2 text-sm text-gray-400">Accounts</p>
           </div>
         </div>
-        <div className="ml-[20px]  mt-20">
+        <div className="ml-[10px]  mt-20">
           <p className="font-bold">Support</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400"> CopyRight</p>
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             <p className="p-2 text-sm text-gray-400">Support</p>
           </div>
         </div>
-        <div className=" ml-[20px]  mt-20">
+        <div className=" ml-[10px] lg:mr-[50px] mt-20">
           <p className="font-bold">School Directory</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400"> CopyRight</p>

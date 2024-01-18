@@ -2,7 +2,7 @@ import React from "react";
 
 const Section1: React.FC = () => {
   return (
-    <div className="flex-col lg:flex lg:flex-row lg:ml-[50px]">
+    <div className="flex-col lg:flex lg:flex-row lg:ml-[-450px]">
       <div className="bg-white shadow-lg border-2 lg:m-10 mt-[20px] ml-[10px] mr-[10px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +10,7 @@ const Section1: React.FC = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-10 h-10 ml-[152px] lg:ml-[70px] mt-5"
+          className="w-10 h-10 ml-[150px] lg:ml-[70px] mt-5"
         >
           <path
             strokeLinecap="round"

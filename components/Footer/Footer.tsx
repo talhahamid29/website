@@ -74,9 +74,9 @@ const Footer: React.FC = () => {
         <hr className="text-gray-400 ml-10 mr-40 " />
         <div className="lg:flex mt-5">
           <p className=" text-sm text-gray-400 p-3 pl-10">
-            Product Design By Oxcytech Systems Pvt Ltd
+            Product Design By Oxcytech Systems 
           </p>
-          <div className="flex text-sm ml-[70px] gap-4">
+          <div className="flex text-sm ml-[50px] gap-4">
             <p className="text-gray-400 text-sm lg:pl-[560px] pt-2">Privacy</p>
             <p className="text-gray-400 text-sm pt-2">Terms</p>
             <p className="text-gray-400 text-sm pt-2">Support</p>

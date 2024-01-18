@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="bg-gray-900 font-nunito">
-        <hr className="text-gray-400 ml-10 mr-10 " />
+        <hr className="text-gray-400 ml-10 mr-40 " />
         <div className="lg:flex mt-5">
           <p className=" text-sm text-gray-400 p-3 pl-10">
             Product Design By Oxcytech Systems Pvt Ltd

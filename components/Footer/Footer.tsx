@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <div className="w-[375px]">
+    <div className="w-[375px] lg:w-[1262px]">
       <div className="lg:flex lg:gap-[70px] bg-gray-900 text-white font-nunito py-10">
-        <div className="ml-[20px] mr-[20px] lg:mt-20 lg:ml-20">
+        <div className="ml-[20px]  lg:mt-20 lg:ml-20">
           <p className=" font-bold flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
                 d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
               />
             </svg>
-            <p className="mt-[10px]">University</p>
+            <span className="mt-[10px]">University</span>
           </p>
           <p className="mt-10 text-gray-400 text-sm p-2 ">9876543210</p>
           <p className="text-sm p-2 text-gray-400">
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
           <p className="text-sm p-2 text-gray-400"> www.eduma.com</p>
         </div>
 
-        <div className="ml-[20px] mr-[20px] mt-20">
+        <div className="ml-[20px]  mt-20">
           <p className="font-bold">Security & Brand</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400">Eduma </p>
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="ml-[20px] mr-[20px] mt-20">
+        <div className="ml-[20px] mt-20">
           <p className="font-bold">Accounts</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400"> CopyRight</p>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
             <p className="p-2 text-sm text-gray-400">Accounts</p>
           </div>
         </div>
-        <div className="ml-[20px] mr-[20px] mt-20">
+        <div className="ml-[20px]  mt-20">
           <p className="font-bold">Support</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400"> CopyRight</p>
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             <p className="p-2 text-sm text-gray-400">Support</p>
           </div>
         </div>
-        <div className=" ml-[20px] mr-[20px] mt-20">
+        <div className=" ml-[20px]  mt-20">
           <p className="font-bold">School Directory</p>
           <div className="mt-10 ">
             <p className="p-2 text-sm text-gray-400"> CopyRight</p>
@@ -71,16 +71,16 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="bg-gray-900 font-nunito">
-        <hr className="text-gray-400  " />
+        <hr className="text-gray-400 ml-10 mr-10 " />
         <div className="lg:flex mt-5">
-          <p className=" text-sm text-gray-400 p-3 mr-[20px] pl-10">
+          <p className=" text-sm text-gray-400 p-3 pl-10">
             Product Design By Oxcytech Systems Pvt Ltd
           </p>
           <div className="flex text-sm ml-[70px] gap-4">
-            <p className="text-gray-400 lg:pl-[560px] pt-2">Privacy</p>
-            <p className="text-gray-400 pt-2">Terms</p>
-            <p className="text-gray-400 pt-2">Support</p>
-            <p className="text-gray-400 pt-2">About</p>
+            <p className="text-gray-400 text-sm lg:pl-[560px] pt-2">Privacy</p>
+            <p className="text-gray-400 text-sm pt-2">Terms</p>
+            <p className="text-gray-400 text-sm pt-2">Support</p>
+            <p className="text-gray-400 text-sm pt-2">About</p>
           </div>
         </div>
         <div />

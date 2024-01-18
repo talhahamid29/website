@@ -19,7 +19,7 @@ const Section1: React.FC = () => {
           />
         </svg>
         <p className="text-3xl text-center p-5 pl-[70px] pr-[80px] font-bold">
-          34
+          340
         </p>
         <p className="text-sm pl-[100px] lg:pl-[20px] pb-[20px]">
           Years Of Establishment

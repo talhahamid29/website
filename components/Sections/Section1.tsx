@@ -10,7 +10,7 @@ const Section1: React.FC = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-10 h-10 ml-[150px] lg:ml-[70px] mt-5"
+          className="w-10 h-10 ml-[152px] lg:ml-[70px] mt-5"
         >
           <path
             strokeLinecap="round"
@@ -33,7 +33,7 @@ const Section1: React.FC = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-10 h-10 ml-[150px] lg:ml-[70px] mt-5"
+          className="w-10 h-10 ml-[155px] lg:ml-[70px] mt-5"
         >
           <path
             strokeLinecap="round"
@@ -56,7 +56,7 @@ const Section1: React.FC = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-10 h-10 ml-[150px] lg:ml-[70px] mt-5"
+          className="w-10 h-10 ml-[155px] lg:ml-[70px] mt-5"
         >
           <path
             strokeLinecap="round"
@@ -67,7 +67,7 @@ const Section1: React.FC = () => {
         <p className="text-3xl text-center p-5 pl-[50px] pr-[50px] font-bold">
           1500
         </p>
-        <p className="text-sm pl-[150px] lg:pl-[70px] pr-[40px] pb-[20px]">
+        <p className="text-sm pl-[157px] lg:pl-[70px] pr-[40px] pb-[20px]">
           Staff
         </p>
       </div>
@@ -79,7 +79,7 @@ const Section1: React.FC = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-10 h-10 ml-[150px] lg:ml-[70px] mt-5"
+          className="w-10 h-10 ml-[156px] lg:ml-[70px] mt-5"
         >
           <path
             strokeLinecap="round"
@@ -102,7 +102,7 @@ const Section1: React.FC = () => {
           xmlns="http://www.w3.org/2000/svg"
           width="50"
           height="50"
-          className=" ml-[150px] lg:ml-[80px] mt-5"
+          className=" ml-[155px] lg:ml-[80px] mt-5"
         >
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g
@@ -122,7 +122,7 @@ const Section1: React.FC = () => {
         <p className="text-3xl text-center p-5 pl-[70px] pr-[70px] font-bold">
           800
         </p>
-        <p className="text-sm pl-[150px] lg:pl-[70px] pr-[60px] pb-[20px]">
+        <p className="text-sm pl-[147px] lg:pl-[70px] pr-[60px] pb-[20px]">
           Partners
         </p>
       </div>

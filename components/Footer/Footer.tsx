@@ -3,8 +3,8 @@ import React from "react";
 const Footer: React.FC = () => {
   return (
     <div className="w-full lg:max-w-screen-xl mx-auto">
-      <div className="lg:flex lg:gap-[70px] bg-gray-900 text-white font-nunito py-10">
-        <div className="ml-[20px]  lg:mt-20 lg:mr-[10px] lg:ml-20">
+      <div className="lg:flex lg:gap-[40px] bg-gray-900 text-white font-nunito py-10">
+        <div className="ml-[20px]  lg:mt-20 lg:mr-[10px] lg:ml-[100px]">
           <p className=" font-bold flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
